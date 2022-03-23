@@ -31,12 +31,12 @@ Some functionality (like templates) is only available in JSON format. Some funct
 
 ## Runbook Param Block
 
-The RealmJoin Portal parses a runbooks PowerShell param block to determine which input fields to render. Where possible, it will also validate the inputs according to the .NET type given for a variable.
+The RealmJoin Portal parses a runbooks PowerShell parameter block to determine which input fields to render. Where possible, it will also validate the inputs according to the .NET type given for a variable.
 
 The following data types are currently understood:
 
 * `[bool]`, `[boolean]` - will present a binary toggle
-* `[string` - will present a textbox to type any alphanumeric input
+* `[string]` - will present a textbox to type any alphanumeric input
 * `[int]` - will present a textbox, only allowing numeric inputs
 * `[DateTime]`, `[DateTimeOffset]` - Will present a date/time picker
 
