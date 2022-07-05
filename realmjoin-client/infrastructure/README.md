@@ -43,6 +43,8 @@ RealmJoin connects to the following hosts (using HTTPS) that might be considered
 * `graph.microsoft.com`
 * `realmjoinstaticcdn.azureedge.net` (Notifier)
 
+**NOTE:** Please refrain from closing outgoing ports 80&443, as several (RealmJoin and Windows internal) processes might need to concact endpoints. 
+
 ## Components
 
 ### BranchCache
